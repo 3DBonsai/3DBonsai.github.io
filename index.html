@@ -3,7 +3,7 @@
 
 <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XB3PR2Y1TQ"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XB3PR2Y1TQ"></script> -->
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -27,15 +27,15 @@
 
     <meta property="og:site_name" content="3DBonsai: Structure-Aware Bonsai Modeling Using Conditioned 3D Gaussian Splatting" />
     <meta property="og:type" content="video.other" />
-    <meta property="og:title" content="DreamFusion: Text-to-3D using 2D Diffusion" />
-    <meta property="og:description" content="DreamFusion: Text-to-3D using 2D Diffusion, 2022." />
-    <meta property="og:url" content="https://dreamfusion3d.github.io/" />
+    <meta property="og:title" content="3DBonsai: Structure-Aware Bonsai Modeling Using Conditioned 3D Gaussian Splatting" />
+    <meta property="og:description" content="3DBonsai: Structure-Aware Bonsai Modeling Using Conditioned 3D Gaussian Splatting" />
+    <meta property="og:url" content="https://3dbonsai.github.io/" />
     <meta property="og:image" content="https://dreamfusion3d.github.io/assets/images/dreamfusion_samples.png" />
 
-    <meta property="article:publisher" content="https://dreamfusion3d.github.io/" />
+    <meta property="article:publisher" content="https://3dbonsai.github.io/" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="3DBonsai: Structure-Aware Bonsai Modeling Using Conditioned 3D Gaussian Splatting" />
-    <meta name="twitter:description" content="We combine neural rendering with a multi-modal text-to-2D image diffusion generative model to synthesize diverse 3D objects from text." />
+    <!-- <meta name="twitter:description" content="We combine neural rendering with a multi-modal text-to-2D image diffusion generative model to synthesize diverse 3D objects from text." /> -->
     <!-- <meta name="twitter:url" content="https://dreamfusion3d.github.io/" />
     <meta name="twitter:image" content="https://dreamfusion3d.github.io/assets/images/dreamfusion_samples.png" /> -->
     <!-- <meta name="twitter:site" content="" /> -->
@@ -45,13 +45,13 @@
 </head>
 
 <body>
-    <div class="banner">
-      <!-- <video class="video lazy"
+    <!-- <div class="banner">
+      <video class="video lazy"
           poster="https://dreamfusion-cdn.ajayj.com/sept28/banner_1x6_customhue_A.jpg"
           autoplay loop playsinline muted>
         <source data-src="https://dreamfusion-cdn.ajayj.com/sept28/banner_1x6_customhue_A.mp4" type="video/mp4"></source>
-      </video> -->
-    </div>
+      </video>
+    </div> -->
     <div class="highlight-clean" style="padding-bottom: 10px;">
         <div class="container" style="max-width: 768px;">
             <h1 class="text-center"><b>3DBonsai</b>: Structure-Aware Bonsai Modeling Using Conditioned 3D Gaussian Splatting</h1>
@@ -109,6 +109,42 @@
             </div>
         </div>
     </div>
+
+    <div class="container" style="max-width: 768px;">
+        <div class="row captioned_videos">
+            <div class="col-md-12">
+                <!-- Large format devices -->
+                <video class="video lazy d-none d-xs-none d-sm-block" autoplay loop playsinline muted>
+                    <source data-src="assets/video/case.mp4" type="video/mp4"></source>
+                </video>
+                <!-- Small format devices -->
+                <!-- <video class="video lazy d-xs-block d-sm-none" autoplay loop playsinline muted poster="https://dreamfusion-cdn.ajayj.com/sept28/shaded_3x3_smoothstep.jpg">
+                    <source data-src="assets/video/a_cherry_blossom_tree.mp4
+                    " type="video/mp4"></source>
+                </video> -->
+                <h6 class="caption">Given a caption, 3DBonsai generates 3D bonsai with high-fidelity appearance, depth, and normals. </h6>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container" style="max-width: 768px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Dataset</h2>
+                <img src="assets/video/dataset.jpg" alt="Descriptive text of the image" style="max-width: 100%; height: auto;">
+            </div>
+        </div>
+    </div>
+    <hr class="divider" />
+    <!-- <div class="container meshes" id="meshContainer" style="max-width: 768px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>3D Bonsai Mesh</h2>
+                <p>3D Bonsai mesh</p>
+            </div>
+        </div>
+    </div> -->
+
 
     <script src="https://polyfill.io/v3/polyfill.js?features=IntersectionObserver"></script>
     <script src="/assets/js/yall.js"></script>
